@@ -1,0 +1,33 @@
+{
+  "name": "@agneta/soap",
+  "version": "0.0.1",
+  "description": "Agneta Soap - integrate your systems with SOAP protocol",
+  "main": "main",
+  "scripts": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agneta/soap.git"
+  },
+  "author": "Agneta Network Applications",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "cheerio": "^1.0.0-rc.2",
+    "concat-stream": "^1.6.2",
+    "klaw": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mailparser": "^2.3.4",
+    "minimatch": "^3.0.4",
+    "request": "^2.88.0",
+    "soap": "^0.25.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-node": "^7.0.1"
+  }
+}
